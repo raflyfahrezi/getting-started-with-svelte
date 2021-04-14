@@ -1,4 +1,6 @@
 <script>
+    import Button from '../components/button.svelte'
+
     export let name
 </script>
 
@@ -8,6 +10,7 @@
         Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
         how to build Svelte apps.
     </p>
+    <Button>Click Me</Button>
 </main>
 
 <style>
