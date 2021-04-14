@@ -1,7 +1,11 @@
 <script>
+    let alertText
+
     const onClickHandler = () => {
-        alert('You clicked the button')
+        alert(alertText)
     }
+
+    export { alertText }
 </script>
 
 <button on:click={onClickHandler}><slot /></button>
